@@ -1,0 +1,97 @@
+/*  definimos colores */
+:root {
+  --color-primario: #0b2239;
+  --color-secundario: #f2f2f2;
+  --color-blanco: #fff;
+  --color-negro: #000;
+  --color-gris: #999;
+  --color-gris-claro: #ccc;
+  --color-gris-oscuro: #333;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* Header */
+header {
+  background-color: var(--color-primario);
+  color: var(--color-secundario);
+  padding: 1rem;
+  text-align: center;
+}
+
+header nav a {
+  color: var(--color-secundario);
+  margin: 0 0 0 20px;
+  text-decoration: none;
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+
+header nav a:hover {
+  color: var(--color-secundario);
+  text-decoration: underline;
+}
+
+.logo-container {
+  font-family: "Dancing Script", cursive;
+}
+
+/* Footer */
+footer {
+  background-color: var(--color-primario);
+  color: var(--color-secundario);
+}
+
+/* Generales */
+.boton__primario {
+  background-color: var(--color-primario);
+  color: var(--color-secundario);
+  width: 180px;
+  height: 50px;
+  border: none;
+  border-radius: 0 10px 0 10px;
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.boton__primario:hover {
+  color: var(--color-gris-claro);
+  text-decoration: none;
+}
+
+.boton__primario:active {
+  color: var(--color-gris-oscuro);
+}
+
+.logo-red {
+  width: 50px;
+  height: 50px;
+  margin: 0 10px;
+  color: var(--color-gris-oscuro);
+}
+.fa-facebook:hover {
+  color: #3b5998;
+}
+.fa-twitter:hover {
+  color: #1da1f2;
+}
+.fa-instagram:hover {
+  color: #c13584;
+}
+.fa-linkedin:hover {
+  color: #0077b5;
+}
+.fa-github:hover {
+  color: #000;
+}
